@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CommController {
 	@GetMapping("/")
-	public String index() {
+	public String index(){
 		return "OSP!";
 	}
 	@GetMapping("/")
-	public String index() {
-		return "edit해서 수정";
+	public String index(){
+	 	return "edit해서 수정";
 	}
 }
