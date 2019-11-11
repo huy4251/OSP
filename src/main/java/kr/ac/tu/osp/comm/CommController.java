@@ -9,4 +9,8 @@ public class CommController {
 	public String index() {
 		return "OSP!";
 	}
+	@GetMapping("/")
+	public String index() {
+		return "edit해서 수정";
+	}
 }
